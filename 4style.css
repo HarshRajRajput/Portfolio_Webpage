@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mr Dafoe', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.logo img{
+    height: 100px;  
+    border-radius: 100px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style: none;
+    font-weight: 800;
+   margin-right: 50px;
+}
+
+nav ul li:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+ .button1 button{
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button1 button:hover{
+    background-color: black;
+    color: rebeccapurple;
+}
+
+section{
+    display: flex;
+    margin-top: 100px;
+    padding: 20px;
+    gap: 50px 50px;
+}
+
+.left-section h1{
+    font-weight: 900;
+   font-size: 70px;
+}
+
+.left-section button{
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    background-color: skyblue;
+    border-radius: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.left-section button:hover{
+    background-color: black;
+    color: rebeccapurple;
+    
+
+
+}
+
+ img{
+    border-radius: 100px;
+    height: 500px;
+    
+    
+ }
+
